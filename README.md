@@ -63,3 +63,28 @@ Please submit your source code to this repository, and amend this README file to
 that you wish to provide.
 
 If you have any questions, please feel free to ask and we will assist where we can.
+
+# Feedback from Shawn
+## Keypoints to mention
+It's finished building up the pipeline for launching environment, handling table in PostgreSQL database and exporting 
+csv file. 
+
+There's a bash script called `<launch_pipeline.sh>` which can automatically finish all the processes just enter simple
+command `./launch_pipeline.sh` in bash shell under project's root path.
+
+If it's going to make adaptions manually, all the python scripts located in `folder script`. The entry main function is
+in `./script/main.py`. The definition of `DATABASE` is in `./script/database.py`.
+
+Once finish all the processes of the pipeline, the export csv file can be found under folder path `./export/report.csv`.
+
+For persisting data in database, there are tiny adaptions in `docker-compose.yml`. It's just creating a volume for 
+that and mounting to host path. 
+
+## Environment
+It's suggest that making sure environment dependencies listed below intalled successfully in advance for running bash 
+script `<launch_pipeline.sh>`.
+
+Dependencies:
+* bash
+* conda
+* docker

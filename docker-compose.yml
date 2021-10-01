@@ -8,6 +8,8 @@ services:
       POSTGRES_USER: demo
       POSTGRES_PASSWORD: demo
       POSTGRES_DB: demo
+    volumes:
+      - ./data:/var/lib/postgresql/data
 
   adminer:
     command: php -S 0.0.0.0:8080 -t /var/www/html
