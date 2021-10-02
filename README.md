@@ -1,7 +1,4 @@
-# Epoch Data Engineer Assignment
-
-This assignment is an opportunity for you to demonstrate your relevant skills for the
-SLP Data Engineer role.
+# Data Engineer Assignment
 
 You will produce a set of Bash and Python scripts that will:
 * Start PostgreSQL database in a Docker container
@@ -64,8 +61,8 @@ that you wish to provide.
 
 If you have any questions, please feel free to ask and we will assist where we can.
 
-# Feedback from Shawn
-## Keypoints to mention
+# Solution to this assignment
+## Keypoint
 It's finished building up the pipeline for launching environment, handling table in PostgreSQL database and exporting 
 csv file. 
 
