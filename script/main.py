@@ -4,7 +4,7 @@
 
 from database import *
 
-# Here you want to change your database, username & password according to your own values
+# it's for configurating the database, username & password accordingly
 config_params = {
     "host"      : "localhost",
     "port"      : "5432",
