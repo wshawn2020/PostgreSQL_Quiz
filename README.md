@@ -55,12 +55,6 @@ PostgreSQL will be listening to default port `5432` and Adminer to port `8080`.
 We have included a [env.yml](env.yml) Conda environment file that you may use to bootstrap your Python dependencies.
 If you do not already have Conda, you can obtain it at [conda.io](https://conda.io).
 
-## Other
-Please submit your source code to this repository, and amend this README file to include any instructions or other notes
-that you wish to provide.
-
-If you have any questions, please feel free to ask and we will assist where we can.
-
 # Solution to this assignment
 ## Keypoint
 It's finished building up the pipeline for launching environment, handling table in PostgreSQL database and exporting 
